@@ -1,0 +1,26 @@
+/*
+Theme Name: Cubit Theme
+Author: Cubit Incorporate
+Author URI: https://www.cubit.com.np/
+Description: Base theme for any project.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://cubit.com.np/license
+Text Domain: cubit
+*/
+
+/*
+Custom Private License:
+
+This theme is for private use only. Redistribution and modification without prior
+written permission from the author are prohibited. For inquiries, contact [Your Contact Information].
+
+*/
+
+
+#banner-sec {margin-top: 90px !important;}
+#banner-sec #text-content-stacked {text-align: center;}
+#banner-sec #text-content-stacked h4 {font-size: 14px;color: #3F3F3F;font-weight: 400;}
+#banner-sec #text-content-stacked h2 {font-size: 36px;font-weight: 500;}
+#banner-sec #text-content-stacked .team-base {width: 700px;margin: auto;}
+#banner-sec #text-content-stacked .team-base p {font-size: 16px;color: #3F3F3F;line-height: 24px;}

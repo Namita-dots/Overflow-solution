@@ -1,0 +1,19 @@
+.wp-gr .wp-google-right {
+  @apply !flex !flex-row !items-end text-[#B0B0B5] !w-full gap-2;
+}
+.wp-google-right div {
+  @apply !flex !flex-row !items-end;
+}
+
+.wp-gr .wp-google-powered {
+  @apply !m-0 !text-[#B0B0B5];
+}
+
+.wp-google-powered img {
+  @apply hidden;
+}
+
+.wp-gr .grw-header-inner,
+.wp-gr .grw-review-inner {
+  @apply !m-0 !p-0;
+}

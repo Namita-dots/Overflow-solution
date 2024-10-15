@@ -1,0 +1,50 @@
+#header-container:is(.dark) {
+  @apply bg-shade-dark-gray;
+}
+#header-container:is(.is-shown.dark-transition) {
+  @apply bg-shade-800;
+}
+
+#header-container:is(.is-shown.light) {
+  @apply bg-white;
+}
+#header-container:is(.is-shown, .shown) #nav-logo {
+  @apply invert transition-all;
+}
+#header-container:is(.is-shown, .shown) :is(.desktop-primary-button) {
+  @apply hover:!bg-shade-800 hover:!text-white;
+}
+#header-container:is(.is-shown, .shown) :is(.nav-container) {
+  @apply border-none;
+}
+html {
+  scroll-behavior: smooth;
+}
+:is(.scroll-primary, .scroll-dark) {
+  @apply pr-4;
+}
+.scroll-primary::-webkit-scrollbar {
+  width: 2px;
+  @apply transition-all duration-300 ease-in-out;
+}
+.scroll-primary-modal::-webkit-scrollbar {
+  width: 2px;
+  @apply transition-all duration-300 ease-in-out;
+}
+.scroll-dark::-webkit-scrollbar {
+  width: 2px;
+  @apply transition-all duration-300 ease-in-out;
+}
+.scroll-primary::-webkit-scrollbar-thumb {
+  width: 2px;
+  @apply bg-white rounded-lg bg-opacity-50;
+}
+.scroll-primary-modal::-webkit-scrollbar-thumb {
+  width: 2px;
+  @apply bg-white rounded-lg bg-opacity-50;
+}
+@media screen and (max-width: 600px) {
+  #wpadminbar {
+    @apply fixed;
+  }
+}

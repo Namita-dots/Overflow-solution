@@ -1,0 +1,7 @@
+.form-field {
+  @apply !bg-transparent !border-l-0 !border-r-0 !border-t-0 w-full hover:!ring-transparent active:!ring-transparent focus:!ring-transparent hover:!border-teal-500 hover:border-b-2 focus:!border-teal-500 active:!border-teal-500 ring-transparent text-shade-500;
+}
+
+.wpcf7-response-output {
+  @apply text-center text-slate-50;
+}
